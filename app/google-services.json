@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "150867042384",
+    "project_id": "siman-app-challenge",
+    "storage_bucket": "siman-app-challenge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150867042384:android:5d564cb1f71b1bf561b155",
+        "android_client_info": {
+          "package_name": "com.example.simanappchallenge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe72ge_qPRrLi88oOobwdwrNycSP8t7X4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
