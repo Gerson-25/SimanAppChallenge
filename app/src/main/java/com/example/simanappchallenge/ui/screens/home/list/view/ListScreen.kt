@@ -84,20 +84,23 @@ fun ListScreenContent(
                     }
                     .padding(end = 10.dp)
             )
-            Text(text = "Ver favoritos", style = MaterialTheme.typography.bodyMedium)
-            Icon(
-                painter = painterResource(id = R.drawable.baseline_bookmark_border_24),
-                contentDescription = "Favoritos",
-                Modifier
+            Row(
+                modifier = Modifier
                     .clickable {
                         onGoFavorites()
                     }
                     .padding(end = 10.dp)
-            )
+            ) {
+                Text(text = "Ver favoritos", style = MaterialTheme.typography.bodyMedium)
+                Icon(
+                    painter = painterResource(id = R.drawable.baseline_bookmark_border_24),
+                    contentDescription = "Favoritos"
+                )
+            }
             Text(text = "Buscar", style = MaterialTheme.typography.bodyMedium)
             Icon(painter = painterResource(id = R.drawable.baseline_search_24), contentDescription = "Buscar")
         }
-        
+
         Text(text = "Personajes de Marvel", fontFamily = FontFamily(Font(R.font.heading_now_bold)), style = MaterialTheme.typography.titleLarge)
 
         LazyColumn(contentPadding = PaddingValues(10.dp)) {
